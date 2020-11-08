@@ -1,6 +1,6 @@
 # Selenium WebDriver Ruby
 
-##To get set up:
+## To get set up:
 
  - install rvm
    `\curl -sSL https://get.rvm.io | bash -s stable --ruby`
@@ -30,7 +30,7 @@
  
 
     
-##Running test:
+## Running test:
  - navigate to specs directory
     `cd specs`
  - enter command to run test and see test description
