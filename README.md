@@ -35,3 +35,18 @@
     `cd specs`
  - enter command to run test and see test description
     `rspec feedback_collection_test.rb --format documentation`
+    
+ - output of the test run
+ ```
+ Feedback collection
+  when on the page
+    should render The Knotch Unit correctly
+    when in the iframe
+      should render 5 user response options
+      should display the correct messaging based on the user positive response
+      should display the correct messaging based on the user negative response
+      should display the correct messaging based on the user extremely positive response
+
+Finished in 10.94 seconds (files took 1.25 seconds to load)
+5 examples, 0 failures
+```
