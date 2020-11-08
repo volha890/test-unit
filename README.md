@@ -25,6 +25,8 @@
     `gem 'rubocop', '~> 0.39.0'`
  - install rubocop
     `bundle install`
+ - run rubocop and auto-fix
+   `rubocop --auto-correct-all`
  
 
     
