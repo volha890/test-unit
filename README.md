@@ -1,4 +1,7 @@
-# Selenium WebDriver Ruby
+# Selenium WebDriver Ruby 
+[![CircleCI](https://circleci.com/gh/volha890/knotch-test.svg?style=svg&circle-token=cd7fa37242c81cdb2653eff3b1f58083758472a6)](https://app.circleci.com/pipelines/github/volha890)
+
+
 
 ## To get set up:
 
