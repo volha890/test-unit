@@ -30,6 +30,15 @@
     `bundle install`
  - run rubocop and auto-fix
    `rubocop --auto-correct-all`
+ - download chromedriver for your operating system and make it discoverable in the PATH
+   
+   <ul>
+<li>https://chromedriver.storage.googleapis.com/index.html?path=86.0.4240.22/</li>
+<li>echo $PATH</li>
+<li>export PATH=$PATH:~/Downloads/</li>
+<li>echo $PATH</li>
+</ul>
+   
  
 
     
@@ -53,3 +62,10 @@
 Finished in 10.94 seconds (files took 1.25 seconds to load)
 5 examples, 0 failures
 ```
+## Running tests in CircleCI
+Any change will trigger CircleCI test run, `.circleci/config.yml` contains all steps to run tests. 
+CircleCI status can be checked by clicking on the badge below README header. https://app.circleci.com/pipelines/github/volha890/knotch-test
+
+
+
+
